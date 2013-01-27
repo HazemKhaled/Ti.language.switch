@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="en:switch">Switch to Arabic</string>
+	<string name="en:done">The change will effect after restart the application</string>
+	<string name="en:welcome">Welcome to %s!</string>
+	<string name="en:simple">simple line</string>
+
+	<string name="ar:switch">التحويل للانجليزية</string>
+	<string name="ar:done">سيظهر التغيير في المرة القادمة عند تشغيل التطبيق</string>
+	<string name="ar:welcome">مرحباً بك في %s!</string>
+	<string name="ar:simple">سطر بسيط</string>
+	
+	<string name="all">This line displayed in English always</string>
+</resources>
