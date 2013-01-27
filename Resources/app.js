@@ -13,7 +13,7 @@ var self = Ti.UI.createWindow({
 
 // switch language button
 var switchBtn = Ti.UI.createButton({
-	title : L(lang + ':switch')
+	title : L(lang + '_switch')
 });
 
 switchBtn.addEventListener('click', function() {
@@ -23,20 +23,20 @@ switchBtn.addEventListener('click', function() {
 		Ti.App.Properties.setString('language', 'en');
 	}
 
-	alert(L(lang + ':done'));
+	alert(L(lang + '_done'));
 });
 
 self.add(switchBtn);
 
 var label = Ti.UI.createLabel({
 	color : '#000000',
-	text : L(lang + ':simple')
+	text : L(lang + '_simple')
 });
 self.add(label);
 
 var label1 = Ti.UI.createLabel({
 	color : '#000000',
-	text : String.format(L(lang + ':welcome'), 'Titanium')
+	text : String.format(L(lang + '_welcome'), 'Titanium')
 });
 self.add(label1);
 
